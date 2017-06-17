@@ -1,0 +1,6 @@
+# This makes it so that you can't view the files in the directory:
+# Options -Indexes
+
+# turn on the rewrite engine:
+# RewriteEngine on
+# RewriteRule ^([^\.]*)$ index.php?path=$1
